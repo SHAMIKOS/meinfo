@@ -1,17 +1,13 @@
-# netlify.toml
+[build.environment]
+DART_SASS_VERSION = "1.93.2"
+GO_VERSION = "1.25.1"
+HUGO_VERSION = "0.151.0"
+NODE_VERSION = "22.18.0"
+TZ = "Europe/Oslo"
 
 [build]
-  command = "hugo --gc --minify -b $URL"
-  publish = "public"
-
-[build.environment]
-  NODE_ENV = "production"
-  GO_VERSION = "1.16"
-  TZ = "UTC"  # Set to preferred timezone
-
-[context.production.environment]
-  HUGO_VERSION = "0.104.1"
-  HUGO_ENV = "production"
-
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.104.1"
+publish = "public"
+command = """\
+  git config core.quotepath false && \
+  hugo --gc --minify --baseURL "${URL}"
+  """
