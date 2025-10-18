@@ -65,9 +65,17 @@
   weight = 45
 
 [[main]]
+  pre = "time"
   name = "TimeLine"
   pageRef = "timeline"
   weight = 30
+
+[[main]]
+  pre = "link"
+  name = "Resume"
+  pageRef = "resume"
+  weight = 50
+
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
