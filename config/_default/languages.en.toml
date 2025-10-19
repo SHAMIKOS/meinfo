@@ -15,11 +15,11 @@ title = "MEINFO"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
-  name = "OASD"
+  name = "Oxygen"
   email = "nokernels@gmail.com"
   image = "profile.gif"
   imageQuality = 96
-  headline = "C.N.M"
+  headline = "And Water"
   bio = "Ohhhhhhhh"
   links = [
      { email = "mailto:nokernels@gmail.com" },
