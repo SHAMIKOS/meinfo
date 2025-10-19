@@ -8,6 +8,9 @@ showPagination: false
 
 {{< timeline >}}
 
+{{< timelineItem md=true icon="time" header="EMBRACE THE PAST !!! Child" badge="2025-10-19" subheader="" >}}
+![7744](https://i.iij.li/i/20251019/68f45714e9a34.jpg)
+{{< /timelineItem >}}
 
 {{< timelineItem icon="code" header="Let's START" badge="2025-10-18" subheader="ohhhhhhh!" >}}
 
