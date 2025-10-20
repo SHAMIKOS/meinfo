@@ -8,6 +8,13 @@ showPagination: false
 
 {{< timeline >}}
 
+{{< timelineItem md=true icon="time" header="突然发现没那么多分享欲" badge="2025-10-20" subheader="" >}}
+![7741](https://i.iij.li/i/20251019/68f457141f56a.jpg)
+*[nn](https://x.com/nnmbpx/status/1972648803229683930)*
+
+{{< /timelineItem >}}
+
+
 {{< timelineItem md=true icon="time" header="EMBRACE THE PAST !!! Child" badge="2025-10-19" subheader="" >}}
 ![7744](https://i.iij.li/i/20251019/68f45714e9a34.jpg)
 {{< /timelineItem >}}
